@@ -1,0 +1,81 @@
+{
+  "name": "@nimble-web3/nimble-publisher",
+  "version": "1.0.0",
+  "description": "Read AI network predictions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimble-web3/nimble-publisher.git"
+  },
+  "scripts": {
+    "format": "npx prettier --write .",
+    "build": "tsc",
+    "api-test": "npm run build && ts-node test/api_test.ts"
+  },
+  "keywords": [
+    "nimble",
+    "ai network"
+  ],
+  "author": "Nimble Network",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nimble-web3/nimble-publisher/issues"
+  },
+  "homepage": "https://github.com/nimble-web3/nimble-publisher#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.10",
+    "ethers": "^5.7.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-rc.1",
+    "ts-node": "^10.9.1",
+    "yargs": "^17.4.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "acorn-walk": "^8.2.0",
+    "aes-js": "^3.0.0",
+    "ansi-regex": "^5.0.1",
+    "ansi-styles": "^4.3.0",
+    "antlr4ts": "^0.5.0-alpha.4",
+    "arg": "^4.1.3",
+    "bech32": "^1.1.4",
+    "bn.js": "^5.2.1",
+    "brorand": "^1.1.0",
+    "cliui": "^8.0.1",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "elliptic": "^6.5.4",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.1.1",
+    "get-caller-file": "^2.0.5",
+    "hash.js": "^1.1.7",
+    "hmac-drbg": "^1.0.1",
+    "inherits": "^2.0.4",
+    "is-fullwidth-code-point": "^3.0.0",
+    "js-sha3": "^0.8.0",
+    "lru-cache": "^6.0.0",
+    "make-error": "^1.3.6",
+    "minimalistic-assert": "^1.0.1",
+    "minimalistic-crypto-utils": "^1.0.1",
+    "require-directory": "^2.1.1",
+    "scrypt-js": "^3.0.1",
+    "semver": "^7.3.8",
+    "solidity-comments-extractor": "^0.0.7",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "typescript": "^5.0.3",
+    "v8-compile-cache-lib": "^3.0.1",
+    "wrap-ansi": "^7.0.0",
+    "ws": "^7.4.6",
+    "y18n": "^5.0.8",
+    "yallist": "^4.0.0",
+    "yargs-parser": "^21.1.1",
+    "yn": "^3.1.1"
+  }
+}
